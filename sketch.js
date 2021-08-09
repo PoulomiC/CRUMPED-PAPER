@@ -26,11 +26,11 @@ Engine.run(engine);
 
 function draw() {
   
-rectMode(CENTER);
   
 background(0);
   
- 
+ Engine.update();
+rectMode(CENTER);
     
 paper1.display();
 
